@@ -56,8 +56,21 @@ body {
 #main {
     /*transition: margin-left .5s;*/
     padding: 20px;
-    margin-left: 325px;
+    overflow-x: hidden;
+    background-color: #dcdcdd;
 }
+
+#slopeContent {
+    margin-left: 300px;
+}
+
+.logos {
+    text-align: center;
+}
+
+/*.indieLogos {
+    width: 255px;
+}*/
 
 #menuLogo {
     height: 65px;
@@ -65,12 +78,25 @@ body {
     margin-bottom: 20px;
 }
 
+#daLogos{
+    margin-left: 0px;
+    margin-right: -24px;
+    padding-bottom: 30px
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
+.h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.slope {
+    height: 800px !important;
+    background-color: #dcdcdd;
+    padding-top: 100px;
+}
 /* this is the initial state of all submenus.
   we set it to max-height: 0, and hide the overflowed content.
 */
@@ -84,7 +110,11 @@ body {
     background-color: #C5C5C5;
 }
 
-
+#compBox {
+    margin-left: -25px;
+    margin-top: -25px;
+    width: 1500px;
+}
 /* when hovering over a .mainmenu item,
   display the submenu inside it.
   we're changing the submenu's max-height from 0 to 200px;

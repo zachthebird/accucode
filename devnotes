@@ -1,0 +1,13 @@
+Dev notes 
+ The menu should be fixed and always visible, and the right side will be the only scrolling area. The menu and logo should be centered vertically in the sidebar
+Fade this text in on page load. Background image should have a parallax effect.
+Buttons and menus do not need to be functional for this test.
+ 
+Typography:
+Typeface is Open Sans
+ 
+Colors:
+The green used is: #8dc63f 
+The menu gray is: #c5c3c6 
+The body gray background is: #dcdcdd 
+The footer is: #181f1c 
