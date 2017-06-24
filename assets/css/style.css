@@ -60,10 +60,10 @@ body {
     padding: 20px;
     overflow-x: hidden;
     background-color: #dcdcdd;
+    margin-left: 300px;
 }
 
 #slopeContent {
-    margin-left: 300px;
     /*transform: rotate(5deg);*/
 }
 
@@ -96,22 +96,65 @@ body {
     font-weight: bold;
 }
 #theSlopeItself {
-    margin-right: -20px;
+    margin-right: -45px;
     border-bottom: 250px solid #dcdcdd;
-    border-left: 8px solid transparent;
-    border-right: 14px solid transparent;
     height: 0;
     margin-top: -186px;
     transform: rotate(-5deg);
     -webkit-transform: rotate(-3deg);
 }
+#upRtGrn {
+    margin-right: -50px;
+    border-bottom: 100px solid #8dc63f;
+    height: 0;
+    margin-top: 550px;
+    transform: rotate(-3deg);
+}
+
+#graySlant2 {
+    margin-top: -72px;
+    border-bottom: 160px solid #dcdcdd;
+    height: 0;
+    transform: rotate(3deg);
+    position: relative;
+    z-index: 0;
+    width: 110%;
+    margin-left: -10px;
+}
+
+#bentxt {
+    position: relative;
+    /*background-color: #8dc63f;*/
+    font-size: 30px;
+    margin-top: 70px;
+    line-height: 45px;
+    text-align: left;
+    padding-left: 40px
+}
+#quoteComponent {
+    background-color: #8dc63f !important;
+    color: white;
+    height: 400px;
+    width: 102%;
+    margin-top: -48px;
+}
+
+button {
+    position: relative;
+    margin-top: 100px;
+    background-color: white;
+    color: #8dc63f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .slope {
     height: 800px !important;
     background-color: #dcdcdd;
     padding-top: 100px;
-    /*transform: rotate(-5deg);*/
     overflow: hidden;
-    /*margin-top: -300px;*/
 }
 /* this is the initial state of all submenus.
   we set it to max-height: 0, and hide the overflowed content.
@@ -166,4 +209,17 @@ img {
   overflow: hidden;
   max-height: 0;
   -webkit-transition: all 0.5s ease-out;
+}
+
+#footer {
+    background-color: #181f1c;
+    position: absolute !important;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+    color: #efefef;
+    text-align: center;
+    margin-top: 1000px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
 }
