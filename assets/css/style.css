@@ -1,5 +1,7 @@
 body {
     font-family: Open Sans, sans-serif;
+    background-color: #dcdcdd;
+    overflow-x: hidden;
 }
 
 .sidenav {
@@ -62,6 +64,7 @@ body {
 
 #slopeContent {
     margin-left: 300px;
+    /*transform: rotate(5deg);*/
 }
 
 .logos {
@@ -92,10 +95,23 @@ body {
     font-size: 28px;
     font-weight: bold;
 }
+#theSlopeItself {
+    margin-right: -20px;
+    border-bottom: 250px solid #dcdcdd;
+    border-left: 8px solid transparent;
+    border-right: 14px solid transparent;
+    height: 0;
+    margin-top: -186px;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-3deg);
+}
 .slope {
     height: 800px !important;
     background-color: #dcdcdd;
     padding-top: 100px;
+    /*transform: rotate(-5deg);*/
+    overflow: hidden;
+    /*margin-top: -300px;*/
 }
 /* this is the initial state of all submenus.
   we set it to max-height: 0, and hide the overflowed content.
