@@ -8,18 +8,14 @@ body, html {
 }
 
 .parallax { 
-    /* The image used */
-    background-image: url("../images/resources/homepage_hero.jpg");
-
-    /* Set a specific height */
-    height: 1000px; 
-
-    /* Create the parallax scrolling effect */
+    background-image: url(../images/resources/homepage_hero.jpg);
+    height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -20px
+    margin-top: -20px;
+    margin-right: -20px;
 }
 
 .sidenav {
@@ -56,15 +52,22 @@ a{
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    line-height: 7px;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
+}
+
+.sidenav li:hover > ul {
+    display: block;
+    opacity: 1;
+    visibility: 1;
 }
 
 /* Position and style the close button (top right corner) */
@@ -112,10 +115,13 @@ a{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-.h3 {
-    font-size: 28px;
+
+h3 {
+    font-size: 26px;
     font-weight: bold;
+    text-shadow: 1px 0px 1px black;
 }
+
 #theSlopeItself {
     margin-right: -45px;
     border-bottom: 300px solid #dcdcdd;
@@ -124,6 +130,17 @@ a{
     transform: rotate(-5deg);
     -webkit-transform: rotate(-3deg);
 }
+
+.logos > p {
+    width: 80%;
+    align-items: center;
+    margin: 35px auto;
+}
+
+#slopeContent{
+    height: 180px;
+}
+
 #upRtGrn {
     margin-right: -50px;
     border-bottom: 100px solid #8dc63f;
@@ -199,11 +216,7 @@ a{
   display the submenu inside it.
   we're changing the submenu's max-height from 0 to 200px;
 */
-ul li:hover .submenu ul{
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
+
 /*
   we now overwrite the background-color for .submenu links only.
   CSS reads down the page, so code at the bottom will overwrite the code at the top.
@@ -232,7 +245,6 @@ img {
 }
 
 .twoCols{
-    padding-top: 50px;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -243,11 +255,16 @@ img {
     text-align: left;
 }
 
+/*li{
+    line-height: 2px;
+}*/
+
 h4{
     color: #8dc63f;
-    font-size: 36px;
+    font-size: 35px;
     display: inline-block;
     font-weight: bold;
+    text-shadow: 1px 0px 1px #8dc63f;
 }
 
 .twoCols p {
