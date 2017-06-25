@@ -1,5 +1,5 @@
 Dev notes 
- The menu should be fixed and always visible, and the right side will be the only scrolling area. The menu and logo should be centered vertically in the sidebar
+The menu should be fixed and always visible, and the right side will be the only scrolling area. The menu and logo should be centered vertically in the sidebar
 Fade this text in on page load. Background image should have a parallax effect.
 Buttons and menus do not need to be functional for this test.
  
