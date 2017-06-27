@@ -328,7 +328,7 @@ h4 {
 @media only screen and (max-width: 1199px) {
     /* For mobile phones: */
     #main {
-        width: 95% !important;
+        width: 103% !important;
         margin-left: -25px !important;
     }
     #mySidenav {
@@ -345,7 +345,7 @@ h4 {
 @media only screen and (max-width: 905px) {
     /* For mobile phones: */
     #main {
-        width: 95% !important;
+        width: 102% !important;
         margin-left: -25px !important;
     }
     #mySidenav {
