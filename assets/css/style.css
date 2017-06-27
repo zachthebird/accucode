@@ -3,11 +3,13 @@ body {
     background-color: #dcdcdd;
     overflow-x: hidden;
 }
-body, html {
+
+body,
+html {
     height: 100%;
 }
 
-.parallax { 
+.parallax {
     background-image: url(../images/resources/homepage_hero.jpg);
     height: 1000px;
     background-attachment: fixed;
@@ -19,26 +21,34 @@ body, html {
 }
 
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
     top: 0;
     left: 0;
-    background-color:  #c5c3c6; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    background-color: #c5c3c6;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
 }
 
-#mySidenav{
+#mySidenav {
     list-style-type: none;
     padding-left: 0;
     width: 325px;
     opacity: 1;
 }
 
-a{
+a {
     opacity: 0;
 }
 
@@ -48,7 +58,9 @@ a{
     list-style-type: none;
 }
 
+
 /* The navigation menu links */
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -59,18 +71,23 @@ a{
     line-height: 7px;
 }
 
+
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
+
+.sidenav a:hover,
+.offcanvas a:focus {
     color: #f1f1f1;
 }
 
-.sidenav li:hover > ul {
+.sidenav li:hover>ul {
     display: block;
     opacity: 1;
     visibility: 1;
 }
 
+
 /* Position and style the close button (top right corner) */
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -79,7 +96,9 @@ a{
     margin-left: 50px;
 }
 
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
 #main {
     /*transition: margin-left .5s;*/
     padding: 20px;
@@ -88,13 +107,13 @@ a{
     margin-left: 300px;
 }
 
-.logos > h3 {
+.logos>h3 {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
 }
 
-.logos > p {
+.logos>p {
     font-size: 17px;
 }
 
@@ -105,15 +124,22 @@ a{
     opacity: 0;
 }
 
-#daLogos{
+#daLogos {
     margin-left: 0px;
     margin-right: -24px;
     padding-bottom: 30px
 }
+
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
 h3 {
@@ -131,13 +157,13 @@ h3 {
     -webkit-transform: rotate(-3deg);
 }
 
-.logos > p {
+.logos>p {
     width: 80%;
     align-items: center;
     margin: 35px auto;
 }
 
-#slopeContent{
+#slopeContent {
     height: 180px;
 }
 
@@ -169,6 +195,7 @@ h3 {
     text-align: left;
     padding-left: 40px
 }
+
 #quoteComponent {
     background-color: #8dc63f !important;
     color: white;
@@ -194,13 +221,16 @@ h3 {
     padding-top: 100px;
     overflow: hidden;
 }
+
+
 /* this is the initial state of all submenus.
   we set it to max-height: 0, and hide the overflowed content.
 */
+
 .submenu {
-  overflow: hidden;
-  max-height: 0;
-  /*-webkit-transition: all 0.5s ease-out;*/
+    overflow: hidden;
+    max-height: 0;
+    /*-webkit-transition: all 0.5s ease-out;*/
 }
 
 .mainmenu a:hover {
@@ -212,10 +242,13 @@ h3 {
     margin-top: -25px;
     width: 1500px;
 }
+
+
 /* when hovering over a .mainmenu item,
   display the submenu inside it.
   we're changing the submenu's max-height from 0 to 200px;
 */
+
 
 /*
   we now overwrite the background-color for .submenu links only.
@@ -223,28 +256,32 @@ h3 {
 */
 
 .submenu a {
-  background-color: #999;
+    background-color: #999;
 }
 
 img {
     z-index: 0;
 }
 
+
 /* hover behaviour for links inside .submenu */
+
 .submenu a:hover {
-  background-color: #666;
+    background-color: #666;
 }
+
 
 /* this is the initial state of all submenus.
   we set it to max-height: 0, and hide the overflowed content.
 */
+
 .submenu {
-  overflow: hidden;
-  max-height: 0;
-  -webkit-transition: all 0.5s ease-out;
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
 }
 
-.twoCols{
+.twoCols {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -255,11 +292,12 @@ img {
     text-align: left;
 }
 
+
 /*li{
     line-height: 2px;
 }*/
 
-h4{
+h4 {
     color: #8dc63f;
     font-size: 35px;
     display: inline-block;
@@ -285,4 +323,21 @@ h4{
     margin-bottom: 0;
     z-index: 1;
     margin-top: 200px;
+}
+
+@media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    #main {
+        width: 95% !important;
+        margin-left: -25px !important;
+    }
+    #mySidenav {
+        display: none;
+    }
+    #upRtGrn {
+        border-bottom: 100px solid #8dc63f;
+        margin-top: 150%;
+        transform: rotate(-3deg);
+        width: 300%;
+    }
 }
