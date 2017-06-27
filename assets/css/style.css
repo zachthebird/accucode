@@ -341,3 +341,119 @@ h4 {
         width: 300%;
     }
 }
+
+@media only screen and (max-width: 905px) {
+    /* For mobile phones: */
+    #main {
+        width: 95% !important;
+        margin-left: -25px !important;
+    }
+    #mySidenav {
+        display: none;
+    }
+    #upRtGrn {
+        border-bottom: 100px solid #8dc63f;
+        margin-top: 175%;
+        transform: rotate(-3deg);
+        width: 311%;
+    }
+    #quoteComponent {
+        background-color: #8dc63f !important;
+        color: white;
+        height: 475px;
+        width: 102%;
+        margin-top: -48px;
+    }
+}
+
+@media only screen and (max-width: 846px) {
+    /* For mobile phones: */
+    #main {
+        width: 103% !important;
+        margin-left: -21px !important;
+    }
+    #theSlopeItself {
+        border-bottom: 300px solid #dcdcdd;
+        width: 105%;
+        margin-top: -250px;
+        margin-left: -5px !important;
+    }
+    #mySidenav {
+        display: none;
+    }
+    #upRtGrn {
+        border-bottom: 100px solid #8dc63f;
+        margin-top: 205%;
+        transform: rotate(-3deg);
+        width: 333%;
+    }
+    #quoteComponent {
+        background-color: #8dc63f !important;
+        color: white;
+        height: 550px;
+        width: 104%;
+        margin-top: -48px;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    /* For mobile phones: */
+    #main {
+        width: 109% !important;
+        margin-left: -20px !important;
+        margin-right: 0 !important;
+    }
+    #mySidenav {
+        display: none;
+    }
+    #theSlopeItself {
+        margin-right: -45px;
+        border-bottom: 300px solid #dcdcdd;
+        height: 0;
+        margin-top: -10px;
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-3deg);
+        width: 110%;
+    }
+    #upRtGrn {
+        border-bottom: 94px solid #8dc63f;
+        margin-top: 375%;
+        transform: rotate(-3deg);
+        width: 107%;
+    }
+    #quoteComponent {
+        background-color: #8dc63f !important;
+        color: white;
+        height: 550px;
+        width: 107%;
+        margin-top: -114px;
+        padding-right: 30px !important;
+    }
+    #graySlant2 {
+        margin-top: -10px;
+    }
+    #daLogos {
+        margin-left: -28px;
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
+    #quoteNow {
+        margin-left: 25px;
+    }
+    #benefits {
+        padding: 0px !important;
+        padding-right: 66px !important;
+    }
+    .logos>h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 47px;
+    }
+    .logos>h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 60px;
+    }
+}
